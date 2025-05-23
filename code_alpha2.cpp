@@ -239,6 +239,9 @@ int main() {
     const char options7[Question::MAX_OPTIONS][Question::MAX_LENGTH] = { "A", "B", "C", "D" };
     quizGame.addQuestion("Which letter comes after B in the alphabet?", options7, 2); // correct answer: C
 
+
+
+    cout<<"hello it is me ahmad"<<endl;
     // Run the main loop
     quizGame.mainLoop();
 
